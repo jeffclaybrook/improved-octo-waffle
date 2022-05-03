@@ -1,5 +1,7 @@
 https://jeffclaybrook.github.io/improved-octo-waffle/
 
+### LYRICS ###
+
 ### Sherane a.k.a Master Splinters Daughter ###
 Lord God
 I come to you a sinner
