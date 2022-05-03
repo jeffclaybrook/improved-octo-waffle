@@ -389,8 +389,8 @@ main {
 }
 
 .expanded .figure {
-   max-width: 260px;
-   max-height: 260px;
+   max-width: 270px;
+   max-height: 270px;
    height: 100%;
    width: 100%;
    margin: auto;
