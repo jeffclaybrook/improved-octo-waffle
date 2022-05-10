@@ -17,7 +17,7 @@ const nextBtn = document.querySelector('.next-btn');
 const shareBtn = document.querySelector('.share-btn');
 const collapseBtn = document.querySelector('.collapse-btn');
 const favoriteBtn = document.querySelector('.favorite-btn');
-const bg = 'linear-gradient(to bottom, rgba(69, 71, 85, .925) 0%, rgba(28, 28, 31, .95) 100%)';
+const background = 'linear-gradient(to bottom, rgba(69, 71, 85, .925) 0%, rgba(28, 28, 31, .95) 100%)';
 const people = ['Bill Clinton', 'Princess Diana', 'Elon Musk', 'Keanu Reeves', 'Joan of Arc', 'Albert Enstein', 'John Lennon', 'Michael Jackson', 'Abraham Lincoln', 'The Virgin Mary', 'Prison Mike', 'The Scranton Strangler', 'Adam and Eve', 'John the Baptist', 'Yoko Ono', 'Mike Lindell', 'Rudy Giuliani', 'Carlton Banks', 'Reince Priebus', 'Michael Clump', 'Detective Micahel Scarn', 'Bill Lumbergh'];
 const person = document.querySelector('.person').innerHTML = people[Math.floor(Math.random() * people.length)];
 
@@ -55,7 +55,7 @@ function loadSong(i) {
    duration.innerHTML = song.duration;
    timer.innerHTML = '00:00';
    seek.value = 0;
-   player.style.background = `${bg}, url(${song.poster}) no-repeat center center/cover`;
+   player.style.background = `${background}, url(${song.poster}) no-repeat center center/cover`;
    audio.addEventListener('loadeddata', () => {
       seek.max = audio.duration;
    });
